@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>Teste cadastro</title>
+
+    <!-- Bootstrap -->
+   <!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="estilo.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/fonts/fontawesome-free-5.11.2/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+
+  </head>
+  <body class="fundo">
+
+    <!--barra navegação-->
+ <nav class="navbar navbar-default" id="fundo2">
+       <div class="container">
+        
+         <div class="navbar-header">
+             <i><img src="img/logosm.png " class="img-rounded" id="logo">
+                 <span class="titulonav">Sara Machado - Advocacia & consultoria</span></i>  
+           </div>
+
+
+          
+         
+         <div class="nav-item dropdown navbar-right">
+           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" id="fontbarra">
+                      Minha conta
+           </button>
+
+          <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href="#">Configurações</a></li>
+            <li class="dropdown-item"><a href="#">Sair</a></li>
+          </ul>
+         </div>
+
+       </div>
+     </nav><br><br>
+
+
+     <!-- fim barra navegaçao -->
+
+  <div class="container">
+     
+   <div class="row">
+    <div class="col-sm-3" id="fundo1">
+      <br>
+
+     <form class="navbar-form" role="search">
+      <div class="input-group" id="SearchBar">
+        <input type="text" class="form-control"
+               placeholder="Busca" name="Busca">
+
+         <div class="input-group-btn">
+           <button class="btn btn-outline-secondary pull-right" type="submit">
+               <i id="fontbarra" class="fas fa-search-plus"></i>
+           </button>
+         </div>
+      </div>
+           <button type="button" class="btn btn-outline-secondary pull-right" data-toggle="modal" data-target="#janela"
+           id="novousuario">
+                 <i class="fas fa-user-plus"></i>
+           </button>
+     </form>
+        <br>
+
+     
+      <div class="links">
+       <nav class="navbar">
+         <div class="container">         
+           <div class="nav-item dropdown" id="btnDropmenu">
+             <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" id="fontbarra">
+              <i class="fas fa-sliders-h"></i>
+             </button>
+
+             <ul class="dropdown-menu" id="dropmenu">
+               <li class="dropdown-item"><i id="fontbarra"
+                class="fas fa-sort-alpha-down"></i></li>
+
+               <li class="dropdown-item"><i id="fontbarra"
+                class="fas fa-sort-alpha-up"></i></li>
+             </ul>
+           </div>
+
+         </div>
+        </nav>
+
+        <a href="#">Fulano 1</a><br>
+        <a href="#">Fulano 2</a><br>
+        <a href="#">Fulano 3</a><br>
+        <a href="#">Fulano 4</a><br>
+        <a href="#">Fulano 5</a><br>
+        <a href="#">Fulano 6</a><br>
+        <a href="#">Fulano 7</a><br>
+
+      </div>
+
+     </div>
+     <br><br>
+             
+<!------------- janela ---------------->
+
+     <form class="modal fade" id="janela">
+       
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+
+          <!-- cabecalho -->
+          <div class="modal-header">
+            <h2>Novo cliente</h2>
+            <button type="button" class="close"
+                    data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+                      </div>
+
+          <!-- corpo -->
+         
+
+   <div class="container">
+
+   <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+     <form role="form">
+      <h2 class="titulo">Cadastro de clientes</h2>
+
+        <div class="row">
+         <div class="col-xs-6 col-sm-6 col-md-6">
+         </div>
+          <div class="col-xs-6 col-sm-6 col-md-6">
+             <div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 1
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 2
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 3
+  </label>
+</div> 
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="text" name=nome id="nome" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Nome:</label>
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="text" name="sobrenome" id="sobrenome" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Sobrenome:</label>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3">
+      <form>
+      <select class="form-control" id="form">
+          <option></option>
+          <option>Casado</option>
+          <option>Solteiro</option>
+          <option>Divorciado</option>
+          <option>União estável</option>
+          <option>Convivente</option>
+          <option>Outros</option>
+      </select>
+      </form>
+    </div>
+  
+    <div class="col-xs-3 col-sm-3 col-md-3">
+    <div class="form-group">
+    <input type="date" class="form-control" id="form">
+    </div></div></div>
+
+ 
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="text" name="nacionalidade" id="nacionalidade" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Nacionalidade:</label>
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="text" name="profissao" id="profissao" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Profissão:</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="form-group">
+            <input type="text" name="CPF" id="CPF" class="form-control" required>
+            <label class="form-control-placeholder" for="name">CPF:</label>
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="form-group">
+            <input type="text" name="RG" id="RG" class="form-control" required>
+            <label class="form-control-placeholder" for="name">RG:</label>
+          </div>
+        </div>
+         <div class="col-xs-2 col-sm-2 col-md-2">
+          <div class="form-group">
+            <input type="text" name="NIT" id="NIT" class="form-control" required>
+            <label class="form-control-placeholder" for="name">NIT:</label>
+          </div>
+        </div>
+      </div>
+    
+
+     <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6">
+      <div class="form-group">
+        <input type="text" name="endereco" id="endereco" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Endereço:</label>
+      </div>
+    </div>
+  </div>
+        
+
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="tex" name="contato1" id="contato1" class="form-control" required>
+            <label class="form-control-placeholder" for="name">Contato:</label>
+          </div>
+        </div>      
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="form-group">
+            <input type="email" name="contato2" id="contato2" class="form-control" required>
+            <label class="form-control-placeholder" for="name">E-mail:</label>
+          </div>
+        </div>
+      </div>
+     
+   <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6">
+     <div class="input-group mb-3">
+      <div class="custom-file" lang="pt-br">
+        <input type="file" class="custom-file-input" id="inputGroupFile02">
+        <label class="custom-file-label" for="inputGroupFile02">Arquivo</label>
+      </div>
+     </div>
+    </div>
+   </div>
+
+      
+ <div class="row">
+   <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="form-group">
+            <label id="fontjanela">Detalhes do processo:</label>
+      <textarea class="form-control">
+      </textarea>
+    </div>
+  </div>
+</div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- fim corpo -->
+
+          <!-- rodape -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Cancelar
+            </button>
+
+            <button type="submit" class="btn btn-primary">
+              Salvar
+            </button>
+
+          </div>
+           
+         </div>
+       </div>
+
+     </form>
+  <!-- fim da janela -->
+  
+      
+<!-- Coluna central -->
+
+  <div class="col-sm-6">
+   <div class="container">
+      <div id="fundo1">
+   <!-- Tab links -->
+<div class="tab barraBtn">
+  <button class="btn btn-outline-secondary addMore tablinks"
+          title="Recados" onclick="openCity(event, 'recados')">
+               <i id="fontbarra" class="fas fa-sticky-note"></i>
+  </button>
+  <button class="btn btn-outline-secondary addMore tablinks" 
+          title="Pendências" onclick="openCity(event, 'Pendências')">
+               <i id="fontbarra" class="fas fa-exclamation"></i>
+  </button>
+  <button class="btn btn-outline-secondary addMore tablinks" title="Calendário"
+          onclick="openCity(event, 'calendario')">
+               <i id="fontbarra" class="far fa-calendar-alt"></i>
+  </button>
+   <button class="btn btn-outline-secondary addMore tablinks" title="Calendário"
+          onclick="openCity(event, 'agenda')">
+               <i id="fontbarra" class="far fa-address-book"></i>
+  </button>
+   <button class="btn btn-outline-secondary addMore tablinks" title="email"
+          onclick="openCity(event, 'email')">
+               <i id="fontbarra" class="far fa-envelope"></i>
+  </button>
+   <button class="btn btn-outline-secondary addMore tablinks" title="arquivos"
+          onclick="openCity(event, 'arquivos')">
+               <i id="fontbarra" class="far fa-folder"></i>
+  </button>   
+  
+</div>
+
+<!-- Tab content -->
+<div id="recados" class="tabcontent">
+  <h3>Recados</h3>
+  <p>home...</p>
+</div>
+
+<div id="Pendências" class="tabcontent">
+  <h3>Pendências</h3>
+  <p>Pedênicas...</p>
+</div>
+
+<div id="calendario" class="tabcontent">
+  <h3>Calendário</h3>
+  <p>datas</p>
+</div> 
+
+<div id="agenda" class="tabcontent">
+  <h3>Agenda</h3>
+  <p>agenda</p>
+</div>
+
+<div id="email" class="tabcontent">
+  <h3>E-mail</h3>
+  <p>E-mail</p>
+</div>
+
+<div id="arquivos" class="tabcontent">
+  <h3>Arquivos</h3>
+  <p>arquivos</p>
+</div>
+
+</div>
+</div></div>
+
+  <!-- Fim da coluna central -->
+
+  <!-- Coluna da esquerda -->
+
+  <div class="col-sm-3">
+   <div>
+      <div id="fundo1">
+        <h3>Teste</h3>
+      <p>
+        Thanks to flexbox, grid columns without a specified width will automatically layout as equal width columns. For example, four instances of .col-sm will each automatically be 25% wide from the small breakpoint and up. See the auto-layout columns section for more examples.  
+        </p>
+
+      </div>
+   </div>
+  </div>
+
+  <!-- Fim da coluna da esquerda -->
+
+    </div><!-- row-->
+  </div><!-- container -->
+
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
